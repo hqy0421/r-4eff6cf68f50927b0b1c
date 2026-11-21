@@ -1,5 +1,10 @@
 # loo (development version)
 
+* New function `loo_pit_calibration()` computing deterministic (non-randomized)
+  LOO-PIT calibration data for discrete (e.g., count) predictions: PSIS-weighted
+  PIT intervals per observation, and per-group expected bin frequencies with
+  randomization-only conditional variances, supporting grouped data and unequal
+  bin widths
 * Handle errors of the user functions in `loo_moment_match()` by @avehtari in #410
 * Allow different numbers of draws in `loo_model_weights()` by @avehtari in #409
 * Improve numerical stability in `loo()`, `psis()`, model weighting, subsampling, 

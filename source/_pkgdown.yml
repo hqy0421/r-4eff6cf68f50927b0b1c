@@ -52,6 +52,7 @@ reference:
       - loo_moment_match
       - loo_moment_match_split
       - E_loo
+      - loo_pit_calibration
       - psis
       - ap_psis
       - tis
